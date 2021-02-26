@@ -139,7 +139,7 @@ Warszataty Badawcze składają się z:
   </tbody>
   </table>
   
-    ### Prace domowe
+ ### Prace domowe
   - [praca domowa 1](https://github.com/mini-pw/2021L-WB-RashomonML/issues/1#issue-816907847)
   - praca domowa 2
   - praca domowa 3
