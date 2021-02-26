@@ -2,7 +2,7 @@
 
 Podczas warsztatów jest przejdziemy przez kolejne etapy pracy naukowej, skupimy się na odtwarzaniu wyników artykułów naukowych, tworzeniu nowych wyników, oraz napisaniu mini-artykułu.
 Tematem zajęć jest stworzenie modeli uczenia maszynowego dla problemów medycznych (predykcja śmiertelności, predykcja ciężkiego przebiegu choroby). 
-Będziemy pracować na dużej, ogólnodostępnej bazie danych MIMIC,
+Będziemy pracować na dużej, ogólnodostępnej bazie danych MIMIC.
 
 Warszataty Badawcze składają się z:
   - [wykładu](https://github.com/mini-pw/2021L-WarsztatyBadawcze)
@@ -139,6 +139,16 @@ Warszataty Badawcze składają się z:
   </tbody>
   </table>
   
+    ### Prace domowe
+  - [praca domowa 1](https://github.com/mini-pw/2021L-WB-RashomonML/issues/1#issue-816907847)
+  - praca domowa 2
+  - praca domowa 3
+  - praca domowa 4
+  - praca domowa 5
+  - praca domowa 6
+  - praca domowa 7
+  - praca domowa 8
+  
   
   ### Schemat oceniania (suma 100 pkt):
   
@@ -157,6 +167,8 @@ Warszataty Badawcze składają się z:
 | Ocena |  3 | 3.5 | 4 | 4.5 | 5 |
   |:---:|:---:|:---:|:---:|:---:|:---:|
   | Punkty   | (50, 60] | (60, 70] | (70, 80] | (80, 90] | (90, ∞) |
+  
+
   
   
   ### Literatura
