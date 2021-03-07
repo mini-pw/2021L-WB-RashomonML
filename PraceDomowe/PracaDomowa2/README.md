@@ -50,17 +50,17 @@ W celu uprzedniego przygotowania danych do uczenia, na zbiorze danych (oprócz s
 
 - **Selekcja cech i ich ekstrakcja** - w celu wyczerpującego porównania benchmarków, na zbiorach MIMIC-III oraz MIMIC-III CareVue stworzono 3 zbiory cech:
 
-- *Feature Set A* - 17 cech, 'preprocessed'; np. usunięte obs. odstające
+1) *Feature Set A* - 17 cech, 'preprocessed'; np. usunięte obs. odstające
 
-- *Feature Set B* - 20 cech, 'raw clinical features'; obs. odstające zostają
+2) *Feature Set B* - 20 cech, 'raw clinical features'; obs. odstające zostają
 
-- *Feature Set C* - 136 cech, 'large number of raw clinical time series data'; dobrane bazując na względnie niskiej % zawartości braków danych
+3) *Feature Set C* - 136 cech, 'large number of raw clinical time series data'; dobrane bazując na względnie niskiej % zawartości braków danych
 
 ### Modele Uczenia Maszynowego & Metody Oceniania (ang. Scoring Methods)
 
 Użyte i porównane zostały poniższe modele uczenia maszynowego:
 
-- **Super Learner Model** - asymptotycznie optymalny model/system, zbudowany na teorii kroswalidacji, wykorzystujący wiele różnych modeli ML)
+- **Super Learner Model** - asymptotycznie optymalny model/system, zbudowany na teorii kroswalidacji, wykorzystujący wiele różnych modeli uczenia maszynowego
 - **Multimodal Deep Learning Model** - kombinacja FFN(Feed-Forward Network) i RNN (Recurrent Neural Network). FFN potrafi dokonać predykcji na danych bez znaku czasowego (*non-temporal features*), natomiast RNN wykorzystuje zmienne związane z czasem (*temporal features*).
 
 Zestawiono je z używanymi w medycynie metodami oceny (ang. scoring methods):
@@ -87,7 +87,7 @@ Dla porównania modeli uczenia maszynowego i metod ocen, wykorzystano następuj�
 
 ### Wnioski i dodatkowe uwagi
 
-W zdecydowanej większości przypadków lepszych predykcji dokonywał Multimodal Deep Learning Model - może poza nielicznymi przypadkami jak np. dane z ostatnich 24h, gdzie Super Learner był nieznacznie lepszy.
+W zdecydowanej większości przypadków lepszych predykcji dokonywał Multimodal Deep Learning Model - może poza nielicznymi przypadkami jak np. dane z ostatnich 24h, gdzie Super Learner był nieznacznie lepszy. Oba te modele okazywały się być lepsze od metod oceniania SAPS-II oraz SOFA.
 
 Na koniec artykułu była również informacja o testach statystycznych, które wykazały, że Multimodal Deep Learning Model okazał się dostawać istotnie lepsze wyniki od pozostałych modeli.
 
