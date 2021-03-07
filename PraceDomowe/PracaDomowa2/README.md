@@ -44,9 +44,9 @@ W celu uprzedniego przygotowania danych do uczenia, na zbiorze danych (oprócz s
 
 1) *niespójne jednostki* - usuwanie małej części obserwacji o innych jednostkach, albo przekształcanie jednostek do jednej wynikającej z ogólnych zasad. Jeśli było to niemożliwe - następowało usuwanie zmiennej.
 
-2) *wiele rekordów w tym samym czasie* - średnia dla zmiennych ciągłych, pierwsze wystąpienie dla zmiennych kategorycznych
+2) *wiele rekordów dla tego samego czasu* - średnia dla zmiennych ciągłych, pierwsze wystąpienie dla zmiennych kategorycznych
 
-3) *zakresy zmiennych* - mediana zmiennej ciągłej
+3) *zmienne jako zakresy* - mediana zmiennej ciągłej
 
 - **Selekcja cech i ich ekstrakcja** - w celu wyczerpującego porównania benchmarków, na zbiorach MIMIC-III oraz MIMIC-III CareVue stworzono 3 zbiory cech:
 
