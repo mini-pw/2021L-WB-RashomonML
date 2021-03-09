@@ -63,7 +63,11 @@ In article these steps of preprocessing were described:
     - **Feature B** - consists of the 20 features related to the 17 features used in SAPS-II score, raw values
     - **Feature C** - consists of 136 raw features selected from the 5 tables mentioned in **1**
 
-On [GitHub](https://github.com/USC-Melady/Benchmarking_DL_MIMICIII) we can find codes that can help with the reproduction of this study. Codes are commented, so this should be helpful if we wish to recreate this work/part of it (there are a lot of files but README.md on first page is quite informative and it helps to find specific part of code).
+On [GitHub](https://github.com/USC-Melady/Benchmarking_DL_MIMICIII) we can find codes that can help with the reproduction of this study. 
+
+Codes are commented, so this should be helpful if we wish to recreate this work/part of it. There are a lot of files but README.md on the first page is quite informative and it definitaly helps to figure out what each file is responsible for.
+
+Most function used are written by authors so it can take a while to figure out how this whole thing work together.
 
 ### 4 Prediction algorithms
 
@@ -127,6 +131,6 @@ Authors used the following evaluation metrics:
 
 ### Results
 
-To sum up, MMDL model was the most accurate in most cases.
+To sum up, in most cases MMDL model was the most accurate.
 
-And in every prediction task, the results were the best when **Feature C** was selected. (136 raw feature)
+And in every prediction task, the results of MMDL model trained on **Feature C** (136 raw feature) were almost always better then results of any other prediction algorithm (used in this article).
