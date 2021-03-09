@@ -44,9 +44,36 @@ For models which do not handle time series variables, summary statistics of them
 In case of missings forward and backward imputation was performed. If for certein patient feature was completely missing, it was imputed with mean.
 
 # 4. ML algorithms
+Benchmark compares in general three types of prediction algorithms (section 4.2):
+
+- **scoring methods:** SAPS-II, SOFA and new SAPS-II scores combined with simple logistic regression can be used for mortality prediction
+- **Super Learner models** is an advanced method of building models ensamble. An optimal weighted combination of basic ML models is achieved by performing cross-validation. Available algorithms cover all of the most popular from simple regression to shallow neural networks.
+- **Multimodal Deep Learning Model (MMDL)** is a framwork which allowed the authors to create an ensamble of both Feedworward NN and Recurrent NN (more precisely Gated Rcurrent Unit GRU). This solution is able to work with both temporal and non-temporal variables at the same time.
+- additionally to results of these ensambles, whrere it is possible full results are presented (single ML models and NN) 
 
 # 5. Hiperparamethers
 
-# 6. Metrics & training methodology
+- **Super Learner**: default parameters for all base algorithms
+- **MMDL**:
+  - optimizer: RMSProp
+  - activation function: ReLu
+  - dropout rate: 0.1
+  - batch size: 100
+  - learning rate: 0.001 (classification) / 0.005 (regression)
+  - maximum number of epoches: 250
+  -  
+# 6.1 Training methodology
+Benchmarking schema is described in section 4.3:
+
+- preprocessing
+- preparing time serias variables for SuperLearner (replaced with basic statistics)
+- stratified 5-folds (3 training, 1 validation, 1 testing) cross validation
+- standarization (with parameters from training set)
+
+# 6.2 Metrics
+Algorithms were evaluated with following metrics:
+
+- classification: AUROC, AUPRC
+- regression: MSE
 
 # 7. Code review
