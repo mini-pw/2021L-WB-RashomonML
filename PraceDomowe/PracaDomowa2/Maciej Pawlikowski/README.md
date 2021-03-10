@@ -12,13 +12,13 @@
 
    Klasyfikacja: 
 
-     * Śmiertelność w szpitalach  
+   * Śmiertelność w szpitalach  
 
-       * Krótko- terminowa śmiertelność (w czasie 2-3 dni od przyjęcia do szpitala) 
+      * Krótko- terminowa śmiertelność (w czasie 2-3 dni od przyjęcia do szpitala) 
 
-       * Długo-terminowa śmiertelność (30-365 dni od wypisania ze szpitala) 
+      * Długo-terminowa śmiertelność (30-365 dni od wypisania ze szpitala) 
 
-       * ICD-9 code group- kody klasyfikujące grupy chorób  
+      * ICD-9 code group- kody klasyfikujące grupy chorób  
 
    Regresja: 
 
