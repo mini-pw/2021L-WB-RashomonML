@@ -1,6 +1,8 @@
 # Praca domowa nr 2
 
-### Artykuł nr 2: [https://academic.oup.com/jamiaopen/article/1/1/87/5032901](Predictive modeling in urgent care: a comparative study of machine learning approaches)
+### Artykuł nr 2: Predictive modeling in urgent care: a comparative study of machine learning approaches 
+
+https://academic.oup.com/jamiaopen/article/1/1/87/5032901 
 
 ## 1. Z jakich danych korzystano? Czy opisane zostały kryteria wyboru obserwacji?
 
@@ -52,7 +54,7 @@ Dla każdego z modeli jego jakość została opisana standardowymi miarami, taki
 
 ## 7. Uwagi dotyczące kodu
 
-Kod użyty do badań został umieszczony na [https://github.com/illidanlab/urgent-care-comparative](githubie). Na etapie preprocessingu autorzy stworzyli własne funkcje. Zawierają one ogólne komentarze, pozwalające zorientować się, co teraz dany kod ma robić. Wstawiony kod jest w postaci skryptów napisanych w języku Python. Brakuje mi jednak dokładniejszych opisów, które mogłyby pojawić się we wstawkach markdownowych w notebooku. Jednakże, kod został udostępniony w postaci skryptów i nie możemy oczekiwać dłuższych opisów.
+Kod użyty do badań został umieszczony na https://github.com/illidanlab/urgent-care-comparative. Na etapie preprocessingu autorzy stworzyli własne funkcje. Zawierają one ogólne komentarze, pozwalające zorientować się, co teraz dany kod ma robić. Wstawiony kod jest w postaci skryptów napisanych w języku Python. Brakuje mi jednak dokładniejszych opisów, które mogłyby pojawić się we wstawkach markdownowych w notebooku. Jednakże, kod został udostępniony w postaci skryptów i nie możemy oczekiwać dłuższych opisów.
 
 
 
