@@ -14,15 +14,15 @@
 
    * Śmiertelność w szpitalach  
 
-      * Krótko- terminowa śmiertelność (w czasie 2-3 dni od przyjęcia do szpitala) 
+   * Krótko- terminowa śmiertelność (w czasie 2-3 dni od przyjęcia do szpitala) 
 
-      * Długo-terminowa śmiertelność (30-365 dni od wypisania ze szpitala) 
+   * Długo-terminowa śmiertelność (30-365 dni od wypisania ze szpitala) 
 
-      * ICD-9 code group- kody klasyfikujące grupy chorób  
+   * ICD-9 code group- kody klasyfikujące grupy chorób  
 
    Regresja: 
 
-       * Długość pobytu- długość czasu pomiędzy przyjęciem do szpitala, a wypisem 
+   * Długość pobytu- długość czasu pomiędzy przyjęciem do szpitala, a wypisem 
 
  
 
@@ -54,33 +54,33 @@
 
    Metody oceniania: 
 
-       * SAPS-II- do mierzenia poważności choroby 
+   * SAPS-II- do mierzenia poważności choroby 
 
-       * SOFA- opisuje dysfunkcje organów 
+   * SOFA- opisuje dysfunkcje organów 
 
-       * New SAPS-II- zmodyfikowana wersja SAPS-II 
+   * New SAPS-II- zmodyfikowana wersja SAPS-II 
 
    Modele ML: 
 
-       * SuperLerner- nadzorowany algorytm służący znajdowaniu optymalnej kombinacji z zestawu algorytmów predykcyjnych 
+   * SuperLerner- nadzorowany algorytm służący znajdowaniu optymalnej kombinacji z zestawu algorytmów predykcyjnych 
 
-       * FFN- Feedforward neural network- do modelowania danych nie związanych z czasem 
+   * FFN- Feedforward neural network- do modelowania danych nie związanych z czasem 
 
-       * RNN- recurrent neural network- do modelowania sekwencji i serii czasowych 
+   * RNN- recurrent neural network- do modelowania sekwencji i serii czasowych 
 
 ### 5. Czy podane zostały hiperparametry modeli ML? 
 
    Użyto domyślnych hiper parametrów  dla wszystkich algorytmów SuperLerner, a dla modeli uczenia głębokiego użyto:  
 
-       * Learning rate: 0.001 dla klasyfikacji/ 0.005 dla regresji 
+   * Learning rate: 0.001 dla klasyfikacji/ 0.005 dla regresji 
 
-       * Activation: ReLU 
+   * Activation: ReLU 
 
-       * Dropout rate: 0.1 
+   * Dropout rate: 0.1 
 
-       * Batch size: 100 
+   * Batch size: 100 
 
-       * Max epoch numer: 250 
+   * Max epoch numer: 250 
 
  
 
@@ -92,6 +92,6 @@
 
    Miary jakości modeli: 
 
-       * AUROC i AUPRC- ewaluacja modeli predykcyjnych dla klasyfikacji 
+   * AUROC i AUPRC- ewaluacja modeli predykcyjnych dla klasyfikacji 
 
-       * MSE- dla modeli regresji 
+   * MSE- dla modeli regresji 
