@@ -12,7 +12,7 @@
 
    Klasyfikacja: 
 
-       * Śmiertelność w szpitalach  
+     * Śmiertelność w szpitalach  
 
        * Krótko- terminowa śmiertelność (w czasie 2-3 dni od przyjęcia do szpitala) 
 
