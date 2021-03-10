@@ -1,7 +1,7 @@
 # Yevhenii Vinichenko - Praca domowa 2
 Celem tej pracy domowej była analiza struktury artykułu [Predictive modeling in urgent care: a comparative study of machine learning approaches](https://academic.oup.com/jamiaopen/article/1/1/87/5032901). Poza tym należało również stworzyć krótki konspekt danego artykułu.
 ## Struktura artykułu
-Jest to artykuł naukowy, którego podział na podrozdziały wygląda następująco:
+Jest to artykuł naukowy, którego podział na rozdziały wygląda następująco:
 - Abstract
 - Cel(Objective)
 - Design
