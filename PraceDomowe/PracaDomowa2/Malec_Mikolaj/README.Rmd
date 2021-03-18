@@ -1,0 +1,32 @@
+---
+title: "Review of Benchmarking deep learning models on large healthcare datasets (1)"
+author: "Mikołaj Malec"
+date: "3/9/2021"
+output: pdf_document
+---
+
+#Key problem
+
+The key problem is comparing the performance of the deep learning models concerning the state-of-the-art machine learning models and prognostic scoring systems on publicly available healthcare datasets. There are papers, which tackled this problem, but in the opinion of the researchers, they had unrealistic assumptions or didn't get deep into the problem enough.
+
+#Data import
+
+They used the Medical Information Mart for Intensive Care III (MIMIC-III) (v1.4) publicly available dataset, which includes all patients admitted to an ICU at the Beth Israel Deaconess Medical Center from 2001 to 2012. They presented the benchmarking results for several clinical prediction tasks such as mortality prediction, length of stay prediction, and ICD-9 code group prediction, for the benchmarking tasks. They used only adult patients (>15 years) and only their first admission to prevent information leakage and ensure similar experimental settings compared to the related works.
+
+#Data enginiring
+
+They cleaned the data (for example handled in consistent units) and it's explained clearly how it was done. Features were selected in 3 groups: A - features set in previs research, B - near the same as A but with raw (unprocessed) features, C - 136 features taken based on their low missing rate.
+
+#ML tools
+
+They used Super Learner, which is a supervised learning algorithm that is designed to find the optimal combination from a set of prediction algorithms, it is mentioned in the article what algorithms and packages in a given language (R or Python) was used, and Deep Learning Models: Feedforward Neural Networks, Recurrent Neural Networks, and Multimodal Deep Learning Model.
+
+They use the default parameters (as listed in their R package) for each base algorithm in the SuperLearner algorithm since we found through grid search that the performance did not vary much with fine-tuning of base algorithms with different parameter settings. As for deep learning models they say what parameters they set, but not why they chose to set them as is (except that it works).
+
+#Validation of predictions
+
+For all the prediction methods, they conduct 5-fold cross-validation (by training on three folds, validation on one fold, and report results on the remaining fold) and report the mean and standard error of performance scores of all 5 testing folds. They use Area under the ROC curve (AUROC) and Area under Precision-Recall Curve (AUPRC) as the evaluation metrics to report the prediction model’s performance on classification tasks and use Mean Squared Error (MSE) to report results on the regression task.
+
+#About code
+
+Code is written in classes and functions, so executable code is clean and understandable, but there are no comments. Mostly they used imported functions packed in classes and functions written by themselves. On preprocessing they used imported functions, but it isn't clear because GitHub catalogs are a mess.
