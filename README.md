@@ -149,6 +149,8 @@ Warszataty Badawcze składają się z:
   - praca domowa 7
   - praca domowa 8
   
+[Repozytorium z raportami końcowymi](https://github.com/mini-pw/2021L-WB-Book)
+  
   
   ### Schemat oceniania (suma 100 pkt):
   
