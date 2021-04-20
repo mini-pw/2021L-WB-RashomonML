@@ -142,12 +142,14 @@ Warszataty Badawcze składają się z:
  ### Prace domowe
   - [praca domowa 1](https://github.com/mini-pw/2021L-WB-RashomonML/issues/1#issue-816907847)
   - [praca domowa 2](https://github.com/mini-pw/2021L-WB-RashomonML/issues/2)
-  - praca domowa 3
+  - [praca domowa 3](https://github.com/mini-pw/2021L-WB-RashomonML/issues/16)
   - praca domowa 4
   - praca domowa 5
   - praca domowa 6
   - praca domowa 7
   - praca domowa 8
+  
+[Repozytorium z raportami końcowymi](https://github.com/mini-pw/2021L-WB-Book)
   
   
   ### Schemat oceniania (suma 100 pkt):
@@ -175,6 +177,7 @@ Warszataty Badawcze składają się z:
   - [Statistical Modeling: The Two Cultures](https://projecteuclid.org/journals/statistical-science/volume-16/issue-3/Statistical-Modeling--The-Two-Cultures-with-comments-and-a/10.1214/ss/1009213726.full)
   - [A study in Rashomon curves and volumes: A new perspective on generalization and model simplicity in machine learning](https://arxiv.org/abs/1908.01755)
   - [All Models are Wrong, but Many are Useful: Learning a Variable’s Importance by Studying an Entire Class of Prediction Models Simultaneously](https://www.jmlr.org/papers/volume20/18-760/18-760.pdf)
+  - [Interpretable Machine Learning: Fundamental Principles and 10 Grand Challenges](https://arxiv.org/pdf/2103.11251.pdf)
   - [Explanatory Model Analysis. Explore, Explain and Examine Predictive Models](https://pbiecek.github.io/ema/)
 - [Interpretable Machine Learning. A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)
 
