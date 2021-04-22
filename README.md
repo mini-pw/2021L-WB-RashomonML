@@ -88,8 +88,8 @@ Warszataty Badawcze składają się z:
   <td>10</td>
   <td>2021-04-29</td>
   <td>Lokalne wyjaśnienia</td>
-  <td>Napisanie wstępnej wersji abstraktu/Przygotowanie głównych rezultatów pracy (bez opisu)</td>
-  <td colspan="2"> PD7 i PD8 - 4 pkt.</td>
+  <td>Napisanie wstępnej wersji abstraktu / Przygotowanie głównych rezultatów pracy (bez opisu)</td>
+  <td colspan="2"> PD7 - 2 pkt. / PD8 - 4 pkt.</td>
   </tr>
   <tr>
   <td>11</td>
