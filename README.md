@@ -101,14 +101,14 @@ Warszataty Badawcze składają się z:
   <tr>
   <td>12</td>
   <td>2021-05-13</td>
-  <td>Oddanie wstępnej wersji raportu dla chętnych</td>
+  <td>TBD</td>
   <td></td>
   <td colspan="2"></td>
   </tr>
   <tr>
   <td>13</td>
   <td>2021-05-20</td>
-  <td>Wzajemne recenzje raportów</td>
+  <td>Oddanie wstępnej wersji raportu dla chętnych/Wzajemne recenzje raportów</td>
   <td></td>
   <td colspan="2"></td>
   </tr>
