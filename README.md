@@ -94,14 +94,14 @@ Warszataty Badawcze składają się z:
   <tr>
   <td>11</td>
   <td>2021-05-06</td>
-  <td>Jak przygotować prezentację projektu?</td>
+  <td>Jak przygotować raport i prezentację projektu?</td>
   <td></td>
   <td colspan="2"></td>
   </tr>
   <tr>
   <td>12</td>
   <td>2021-05-13</td>
-  <td>TBD</td>
+  <td>Konsultacje</td>
   <td></td>
   <td colspan="2"></td>
   </tr>
@@ -174,12 +174,18 @@ Warszataty Badawcze składają się z:
   
   
   ### Literatura
+  #### RashomonML
   - [Statistical Modeling: The Two Cultures](https://projecteuclid.org/journals/statistical-science/volume-16/issue-3/Statistical-Modeling--The-Two-Cultures-with-comments-and-a/10.1214/ss/1009213726.full)
   - [A study in Rashomon curves and volumes: A new perspective on generalization and model simplicity in machine learning](https://arxiv.org/abs/1908.01755)
   - [All Models are Wrong, but Many are Useful: Learning a Variable’s Importance by Studying an Entire Class of Prediction Models Simultaneously](https://www.jmlr.org/papers/volume20/18-760/18-760.pdf)
+  - [Predictive Multiplicity in Classification](https://arxiv.org/abs/1909.06677)
   - [Interpretable Machine Learning: Fundamental Principles and 10 Grand Challenges](https://arxiv.org/pdf/2103.11251.pdf)
+  - [prezentacja Cynthi Rudin](https://www.youtube.com/watch?v=xZSRN_kSJUs&t=661s)
+  
+  #### Explainable Model Analysis
   - [Explanatory Model Analysis. Explore, Explain and Examine Predictive Models](https://pbiecek.github.io/ema/)
 - [Interpretable Machine Learning. A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)
+- 
 
 
 
